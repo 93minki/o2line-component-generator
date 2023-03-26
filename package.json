@@ -15,7 +15,7 @@
     "commands": [
       {
         "command": "createComponent",
-        "title": "Make Folder"
+        "title": "Make Component"
       }
     ],
     "menus": {
@@ -26,15 +26,7 @@
           "when": "explorerResourceIsFolder"
         }
       ]
-    },
-    "keybindings": [
-      {
-        "command": "otwogen.helloWorld",
-        "key": "ctrl+f1",
-        "mac": "cmd+f1",
-        "when": "editorTextFocus"
-      }
-    ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",
