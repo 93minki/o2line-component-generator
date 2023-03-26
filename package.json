@@ -14,19 +14,27 @@
   "contributes": {
     "commands": [
       {
-        "command": "otwogen.helloWorld",
+        "command": "createComponent",
         "title": "Make Folder"
       }
     ],
     "menus": {
       "explorer/context": [
         {
-          "command": "otwogen.helloWorld",
+          "command": "createComponent",
           "group": "navigation",
           "when": "explorerResourceIsFolder"
         }
       ]
-    }
+    },
+    "keybindings": [
+      {
+        "command": "otwogen.helloWorld",
+        "key": "ctrl+f1",
+        "mac": "cmd+f1",
+        "when": "editorTextFocus"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",
