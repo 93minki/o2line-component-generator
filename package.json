@@ -3,8 +3,14 @@
   "displayName": "otwogen",
   "description": "otwoline basic folder structure generator",
   "version": "0.0.1",
+  "publisher": "93minki",
   "engines": {
     "vscode": "^1.76.0"
+  },
+  "license": "(MIT or Apache-2.0)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/93minki/o2line-component-generator"
   },
   "categories": [
     "Other"
